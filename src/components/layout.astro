@@ -12,11 +12,19 @@ import Footer from './footer.astro';
 		<title>Astro</title>
 	</head>
 	<body>
-    <Header />
-      <div style="padding-bottom: 20px; padding-right: 20px; padding-left: 20px; font-size: 25px;">
-        <slot />
-      </div>
-    <Footer />
+
+    <header>
+      <Header />
+    </header>
+
+    <div style="padding-bottom: 20px; padding-right: 15px; padding-left: 15px; font-size: 25px;">
+      <slot />
+    </div>
+
+    <footer>
+      <Footer />
+    </footer>
+
   </body>
 </html>
 
@@ -30,9 +38,5 @@ import Footer from './footer.astro';
     font-family: scientifica;
     color: #c0caf5;
     background-color: #1a1b26;
-  }
-
-  * {
-    min-width: 0px;
   }
 </style>

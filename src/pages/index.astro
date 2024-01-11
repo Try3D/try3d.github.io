@@ -3,20 +3,31 @@ import Layout from "../components/layout.astro";
 ---
 
 <Layout>
-  <div class="center rotate15" style="font-size: 40px;">
+  <div class="term">
     <span class="magenta">[try3d@saran ~]$</span>
     <span class="green">echo</span>
     <span class="yellow">'Hello world'</span><span class="blink">█</span>
   </div>
 
-  <div class="center" style="font-size: 30px; padding-right: 30px; padding-left: 30px;">
+  <div class="desc">
     Welcome, I am an undergrad SNUC aspiring to be a Webdev and ML Engineer.
   </div>
 </Layout>
 
 <style>
-  .center {
+  .term {
+    font-size: 40px;
+    transform: rotate(-5deg);
+    padding-top: 180px;
+    padding-bottom: 180px;
     text-align: center;
+  }
+
+  .desc {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   .magenta {
@@ -29,12 +40,6 @@ import Layout from "../components/layout.astro";
 
   .yellow {
     color: #e0af68;
-  }
-
-  .rotate15 {
-    transform: rotate(-5deg);
-    padding-top: 180px;
-    padding-bottom: 180px;
   }
 
   .blink {

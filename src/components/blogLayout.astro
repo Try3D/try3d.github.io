@@ -1,0 +1,20 @@
+---
+import Layout from "./layout.astro";
+---
+
+<Layout>
+  <div style="padding-top: 20px">
+    <a href="/blogs">&lt Back</a>
+  </div>
+  <div style="margin-top: -10px;">
+    <slot />
+  </div>
+</Layout>
+
+<style>
+  a {
+    font-size: 30px;
+    color: #f7768e;
+    text-decoration: none;
+  }
+</style>

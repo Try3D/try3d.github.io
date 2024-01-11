@@ -1,3 +1,0 @@
-- Unify most of the ui with reusable components to remove code clutter
-- Improve consistency of padding, font size, etc. with said components
-- Finish `/projects` route
