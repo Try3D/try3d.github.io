@@ -1,0 +1,38 @@
+---
+import Header from './header.astro';
+import Footer from './footer.astro';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+    <Header />
+      <div style="padding-bottom: 20px; padding-right: 20px; padding-left: 20px; font-size: 30px;">
+        <slot />
+      </div>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  @font-face {
+    font-family: 'scientifica';
+    src: url('/fonts/scientifica.ttf') format('truetype');
+  }
+
+  body {
+    font-family: scientifica;
+    color: #c0caf5;
+    background-color: #1a1b26;
+  }
+
+  * {
+    min-width: 0px;
+  }
+</style>

@@ -1,0 +1,22 @@
+---
+const { name, title, date } = Astro.props;
+---
+
+<div>
+  <div style="font-size: 70px; font-weight: bold; padding-top: 10px; padding-bottom: 10px;">
+    <a href={name}>
+      {title}
+    </a>
+  </div>
+  <div style="font-size: 40px;">
+    {date}
+  </div>
+</div>
+
+<style>
+  a {
+    color: #e0af68;
+    font-size: 50px;
+    text-decoration: none;
+  }
+</style>

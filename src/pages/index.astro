@@ -1,0 +1,50 @@
+---
+import Layout from "../components/layout.astro";
+---
+
+<Layout>
+  <div class="center rotate15" style="font-size: 50px;">
+    <span class="magenta">[try3d@saran ~]$</span>
+    <span class="green">echo</span>
+    <span class="yellow">'Hello world'</span><span class="blink">█</span>
+  </div>
+
+  <div class="center" style="font-size: 40px; padding-right: 40px; padding-left: 40px;">
+    Welcome, I am an undergrad student at SNUC aspiring to be a Webdev and AI enthusiast.
+  </div>
+</Layout>
+
+<style>
+  .center {
+    text-align: center;
+  }
+
+  .magenta {
+    color: #bb9af7;
+  }
+
+  .green {
+    color: #9ece6a;
+  }
+
+  .yellow {
+    color: #e0af68;
+  }
+
+  .rotate15 {
+    transform: rotate(-5deg);
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .blink {
+    display: inline-block;
+    animation: blinkCursor 1s step-end infinite;
+  }
+
+  @keyframes blinkCursor {
+    50% {
+        opacity: 0;
+    }
+  }
+</style>
