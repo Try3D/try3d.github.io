@@ -1,7 +1,7 @@
 ---
 layout: ../../components/layout.astro
-title: Hello
+title: Hello world
 ---
 
-# This is me
-This is a test plz ignore
+# Hello world
+This is just a placeholder
