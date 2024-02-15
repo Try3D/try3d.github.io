@@ -1,6 +1,7 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://try3d.github.io',
+  site: "https://try3d.github.io",
+  base: "/",
 });
