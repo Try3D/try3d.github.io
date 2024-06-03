@@ -1,0 +1,62 @@
+---
+
+---
+
+<div class="parent">
+  <div class="cell">
+    <div class="i">[1]</div>
+    <div><span class="blue">from</span> try3d <span class="blue">import</span> <span class="cyan">Info</span></div>
+    <div><span class="blue">from</span> Ipython.display <span class="blue">import</span> <span class="yellow">HTML</span>, display</div>
+    <div style="height: 20px;"></div>
+    <div>model = <span class="magenta">Info</span>()</div>
+    <div style="height: 20px;"></div>
+    <div><span class="yellow">Y</span> = model.<span class="blue">predict</span>(<span class="yellow">X</span>)</div>
+    <div style="height: 20px;"></div>
+    <div><span class="blue">display</span>(<span class="magenta">HTML</span>(<span class="yellow">Y</span>))</div>
+  </div>
+</div>
+
+<style>
+  .i {
+    position: absolute;
+    transform: translate(-55px, 0);
+  }
+  .parent {
+    width: var(--viewport-width);
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cell {
+    overflow-x: auto;
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed var(--foreground-color);
+  }
+
+  .cell div {
+    white-space: pre;
+  }
+
+  .magenta {
+    color: var(--magenta);
+  }
+
+  .blue {
+    color: var(--blue);
+  }
+
+  .green {
+    color: var(--green);
+  }
+
+  .cyan {
+    color: var(--cyan);
+  }
+
+  .yellow {
+    color: var(--yellow);
+  }
+</style>

@@ -1,55 +1,24 @@
 ---
-import Layout from "../components/layout.astro";
+import Layout from '../layouts/Layout.astro';
+import Cell from '../components/Cell.astro';
+import Output from '../components/Output.astro';
+import Footer from '../components/Footer.astro';
 ---
 
-<Layout>
-  <div class="term">
-    <span class="magenta">[try3d@saran ~]$</span>
-    <span class="green">echo</span>
-    <span class="yellow">'Hello world'</span><span class="blink">█</span>
+<Layout title="Try3D">
+  <div>
+    <Cell />
+    <Output />
   </div>
 
-  <div class="desc">
-    Welcome, I am a Full stack Webdev and undergrad at SNUC aspiring to be an MLOps Engineer.
-  </div>
+  <Footer />
 </Layout>
 
 <style>
-  .term {
-    font-size: 40px;
-    transform: rotate(-5deg);
-    padding-top: 180px;
-    padding-bottom: 180px;
-    text-align: center;
-  }
-
-  .desc {
-    text-align: center;
-    font-size: 33px;
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-
-  .magenta {
-    color: #bb9af7;
-  }
-
-  .green {
-    color: #9ece6a;
-  }
-
-  .yellow {
-    color: #e0af68;
-  }
-
-  .blink {
-    display: inline-block;
-    animation: blinkCursor 1s step-end infinite;
-  }
-
-  @keyframes blinkCursor {
-    50% {
-        opacity: 0;
-    }
+  div {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 </style>
