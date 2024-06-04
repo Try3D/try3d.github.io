@@ -1,24 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Cell from '../components/Cell.astro';
-import Output from '../components/Output.astro';
+import Jupyter from '../components/Jupyter.svelte';
 import Footer from '../components/Footer.astro';
 ---
 
 <Layout title="Try3D">
-  <div>
-    <Cell />
-    <Output />
-  </div>
-
+  <Jupyter client:load />
   <Footer />
 </Layout>
 
 <style>
-  div {
-    font-size: 26px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
 </style>
