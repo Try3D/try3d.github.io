@@ -73,7 +73,11 @@
       </div>
       <div class="menu" id="menu">
         <button on:click={handleClick}>
-          <img src="/images/play.png" alt="run" />
+          {#if loading}
+            <img src="/images/loading.png" alt="run" />
+          {:else}
+            <img src="/images/play.png" alt="run" />
+          {/if}
         </button>
       </div>
       <div>
@@ -101,7 +105,7 @@
   </div>
 
   {#if loading}
-    <div>Loading...</div>
+    <div>Running...</div>
   {:else if val > 0}
     <table>
       <tr>
