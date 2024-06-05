@@ -1,8 +1,24 @@
 <script lang="ts">
   let val = 0;
 
+  let loading = false;
   function handleClick() {
-    val += 1;
+    if (loading) return;
+    loading = true;
+    setTimeout(() => {
+      val += 1;
+      loading = false;
+    }, time(val));
+  }
+
+  function time(n: number): number {
+    if (n < 1) {
+      return 750;
+    } else if (n < 4) {
+      return 500;
+    } else {
+      return 250;
+    }
   }
 
   function getlen(n: number): number {
@@ -49,7 +65,11 @@
   <div class="parent">
     <div class="cell">
       <div class="i" style="transform: {transformValue}">
-        [{val == 0 ? " " : val}]
+        {#if loading}
+          [*]
+        {:else}
+          [{val == 0 ? " " : val}]
+        {/if}
       </div>
       <div class="menu" id="menu">
         <button on:click={handleClick}>
@@ -80,7 +100,9 @@
     </div>
   </div>
 
-  {#if val > 0}
+  {#if loading}
+    <div>Loading...</div>
+  {:else if val > 0}
     <table>
       <tr>
         <th style="width: 100px;">{@html cur.key}</th>
@@ -160,10 +182,6 @@
 
   td {
     text-align: left;
-  }
-
-  a {
-    color: var(--magenta);
   }
 
   .magenta {
