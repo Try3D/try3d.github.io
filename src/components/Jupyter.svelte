@@ -3,21 +3,23 @@
 
   let loading = false;
   function handleClick() {
+    const tmp = val;
     if (loading) return;
     loading = true;
+    val = 0;
     setTimeout(() => {
-      val += 1;
+      val = tmp + 1;
       loading = false;
-    }, time(val));
+    }, time(tmp));
   }
 
   function time(n: number): number {
     if (n < 1) {
       return 750;
     } else if (n < 4) {
-      return 500;
+      return 333;
     } else {
-      return 250;
+      return 150;
     }
   }
 
@@ -28,7 +30,7 @@
     return 1 + getlen(Math.floor(n / 10));
   }
 
-  $: transformValue = `translate(-${44 + getlen(val) * 11.5}px, 0)`;
+  $: transformValue = `translate(-${44 + getlen(val) * 11.78}px, 0)`;
 
   type TableDataProp = {
     key: string;
@@ -73,11 +75,7 @@
       </div>
       <div class="menu" id="menu">
         <button on:click={handleClick}>
-          {#if loading}
-            <img src="/images/loading.png" alt="run" />
-          {:else}
-            <img src="/images/play.png" alt="run" />
-          {/if}
+          <img src="/images/play.png" alt="run" />
         </button>
       </div>
       <div>
@@ -105,7 +103,7 @@
   </div>
 
   {#if loading}
-    <div>Running...</div>
+    <div>running...</div>
   {:else if val > 0}
     <table>
       <tr>
