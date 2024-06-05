@@ -27,12 +27,13 @@
     },
     {
       key: "Resume",
-      value: '<a href="https://youtu.be/dQw4w9WgXcQ">Download CV</a>',
+      value:
+        "<a style='color: var(--magenta)' href='https://youtu.be/dQw4w9WgXcQ'>Download CV</a>",
     },
     {
       key: "Projects",
       value:
-        "I should update this section...\nCheck <a href='https://github.com/try3d'>my github</a> for now",
+        "I should update this section...\nCheck <a style='color: var(--magenta)' href='https://github.com/try3d'>my github</a> for now",
     },
     {
       key: "Tech",
@@ -83,7 +84,7 @@
     <table>
       <tr>
         <th style="width: 100px;">{@html cur.key}</th>
-        <td>{@html cur.value}</td>
+        <td style="text-wrap: wrap">{@html cur.value}</td>
       </tr>
     </table>
   {/if}
@@ -95,6 +96,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    right: -15px;
   }
 
   button {
@@ -179,4 +182,3 @@
     color: var(--yellow);
   }
 </style>
-
