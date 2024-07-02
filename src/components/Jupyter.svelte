@@ -121,7 +121,6 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    right: -15px;
   }
 
   button {
