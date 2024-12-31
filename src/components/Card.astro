@@ -23,39 +23,89 @@ if (imagePath) {
 ---
 
 <Tag
-	class={cn(
-		className,
-		'relative rounded-2xl border border-border bg-primary-foreground px-5 py-3',
-		href && 'transition-all hover:border-foreground/25 hover:shadow-sm'
-	)}
-	href={href}
+  class={cn(
+    className,
+    'relative rounded-2xl border border-border bg-primary-foreground px-5 py-3',
+    href && 'transition-all hover:border-foreground/25 hover:shadow-sm',
+    'fixed-image-adjustment'
+  )}
+  href={href}
   target="_blank"
 >
-	{
-		imagePath && (
-			<div
-				class={cn('relative mb-3 md:absolute md:mb-0', imageClass)}
-				style={{
-					border: '4px solid white',
-					borderRadius: '8px',
-					padding: '0'
-				}}
-			>
-				<Image
-					src={images[imagePath]()}
-					alt={altText}
-					class='h-full w-full object-cover'
-					loading='eager'
-				/>
-			</div>
-		)
-	}
-	<div class='flex flex-col gap-y-1.5'>
-		<div class='flex flex-col gap-y-0.5'>
-			<h1 class='text-lg font-medium'>{heading}</h1>
-			<h2 class='text-muted-foreground'>{subheading}</h2>
-			<h2 class='text-muted-foreground'>{date}</h2>
-		</div>
-		<slot />
-	</div>
+  {
+    imagePath && (
+      <div
+        class={cn(
+          'relative mb-3',
+          imageClass,
+          'image-wrapper'
+        )}
+        style={{
+          border: '4px solid white',
+          borderRadius: '8px',
+          padding: '0',
+          width: '48px',
+          height: '48px',
+        }}
+      >
+        <Image
+          src={images[imagePath]()}
+          alt={altText}
+          class='h-full w-full object-cover'
+          loading='eager'
+        />
+      </div>
+    )
+  }
+  <div class='flex flex-col gap-y-1.5 content-wrapper'>
+    <div class='flex flex-col gap-y-0.5'>
+      <h1 class='text-lg font-medium'>{heading}</h1>
+      <h2 class='text-muted-foreground'>{subheading}</h2>
+      <h2 class='text-muted-foreground'>{date}</h2>
+    </div>
+    <slot />
+  </div>
 </Tag>
+
+
+<style>
+  /* Base styling (desktop) */
+.fixed-image-adjustment {
+  position: relative;
+}
+
+.fixed-image-adjustment .image-wrapper {
+  position: absolute;
+  top: 12px; /* Adjusted to match py-3 from Tailwind */
+  left: -64px;
+  flex-shrink: 0;
+  margin-bottom: 0;
+}
+
+.fixed-image-adjustment .content-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .fixed-image-adjustment {
+    position: relative;
+    margin-left: 60px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .fixed-image-adjustment .image-wrapper {
+    position: absolute;
+    left: -60px;
+    top: 12px; /* Adjusted to match py-3 from Tailwind */
+    margin: 0;
+  }
+  
+  .fixed-image-adjustment .content-wrapper {
+    flex-grow: 1;
+    margin-left: 0;
+  }
+}
+</style>
