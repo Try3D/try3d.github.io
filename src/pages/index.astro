@@ -60,7 +60,7 @@ const others = ['Linux', 'Docker', 'Git']
 						>
 					</Label>
 					<Label
-						title='View Resume'
+						title='CV'
 						as='a'
 						href='/resume.pdf'
 						target='_blank'
@@ -118,8 +118,58 @@ const others = ['Linux', 'Docker', 'Git']
 			</Card>
 		</Section>
 
+		<Section title='Experience'>
+			<Card
+				heading='Software Development Engineer Intern'
+				subheading='Miniture Chennai, Hybrid'
+				date='Mar 2025 – Present'
+				imagePath='/src/assets/app.png'
+				altText='Miniture logo'
+				imageClass='h-11 w-auto md:-left-16 rounded-lg'
+			>
+				<ul class='ml-4 list-disc text-muted-foreground'>
+					<li>
+						<b>Real-time Chat App:</b> Built an LLM streaming agent using Express.js and LangChain with Server-Sent Events reducing TTFT by 80% while integrating custom tools that streamlined interaction leading to increased retention
+					</li>
+					<li>
+						<b>Kubernetes:</b> Deployed backend on self-hosted Kubernetes cluster for autoscaling, high availability and automatic deployments
+					</li>
+					<li>
+						<b>Behavior-Driven Notifications:</b> Built a personalized notification system based on user behaviour and engagement with A/B testing support, boosting Click-Through-Rate
+					</li>
+					<li>
+						<b>CMS Integrations:</b> Added Shopify review and rating system and CMS-driven blog support to the mobile application
+					</li>
+				</ul>
+			</Card>
+		</Section>
+
 		<Section title='Projects'>
 			<div class='flex flex-col gap-y-3 sm:flex-col sm:gap-y-3'>
+				<ProjectCard
+					href='https://github.com/try3d/eunoia'
+					heading='Eunoia'
+					subheading='AI-Powered DIY Learning Platform built with Python, FastAPI, React Native, BeautifulSoup4, Gemini, ChromaDB'
+					imagePath='/src/assets/eunoia.jpeg'
+					altText='Eunoia AI Learning Platform'
+					class='w-full'
+				/>
+				<ProjectCard
+					href='https://snugpa.vercel.app/'
+					heading='GPA Calculator'
+					subheading='Student GPA Management Platform built with Svelte, PocketBase, Posthog'
+					imagePath='/src/assets/gpa-calculator.png'
+					altText='GPA Calculator Platform'
+					class='w-full'
+				/>
+				<ProjectCard
+					href='#'
+					heading='RaftKV'
+					subheading='Distributed Key-Value Store built with Go, Raft, CLI, Distributed Systems'
+					imagePath='/src/assets/raftkv.png'
+					altText='RaftKV Distributed System'
+					class='w-full'
+				/>
 				<ProjectCard
 					href='https://github.com/try3d/cropcare'
 					heading='Crop Care'
