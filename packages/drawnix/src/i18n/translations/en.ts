@@ -129,6 +129,14 @@ const enTranslations: Translations = {
   'line.target': 'End',
   'line.arrow': 'Arrow',
   'line.none': 'None',
+  'line.undefined': 'Undefined',
+  'line.open-triangle': 'Open Triangle',
+  'line.solid-triangle': 'Solid Triangle',
+  'line.sharp-arrow': 'Sharp Arrow',
+  'line.one-side-up': 'One Side Up',
+  'line.one-side-down': 'One Side Down',
+  'line.hollow-triangle': 'Hollow Triangle',
+  'line.single-slash': 'Single Slash',
 
   // Stroke style
   'stroke.solid': 'Solid',
@@ -165,7 +173,8 @@ const enTranslations: Translations = {
   'mind.abstractNodeText': 'Summary',
 
   'tutorial.title': 'Drawnix',
-  'tutorial.description': 'All-in-one whiteboard, including mind maps, flowcharts, free drawing, and more',
+  'tutorial.description':
+    'All-in-one whiteboard, including mind maps, flowcharts, free drawing, and more',
   'tutorial.dataDescription': 'All data is stored locally in your browser',
   'tutorial.appToolbar': 'Export, language settings, ...',
   'tutorial.creationToolbar': 'Select a tool to start your creation',

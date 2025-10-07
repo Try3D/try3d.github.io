@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import { Island } from '../island';
 import Stack from '../stack';
 import { ToolButton } from '../tool-button';
+import { Translations } from '../../i18n/types';
 import {
   HandIcon,
   MindIcon,
@@ -51,7 +52,7 @@ export enum PopupKey {
 }
 
 type AppToolButtonProps = {
-  titleKey?: keyof typeof import('../../i18n').Translations;
+  titleKey?: string;
   name?: string;
   icon: React.ReactNode;
   pointer?: DrawnixPointerType;
@@ -198,12 +199,12 @@ export const CreationToolbar = () => {
                     icon={lastFreehandButton.icon}
                     title={
                       lastFreehandButton.titleKey
-                        ? t(lastFreehandButton.titleKey)
+                        ? t(lastFreehandButton.titleKey as keyof Translations)
                         : 'Freehand'
                     }
                     aria-label={
                       lastFreehandButton.titleKey
-                        ? t(lastFreehandButton.titleKey)
+                        ? t(lastFreehandButton.titleKey as keyof Translations)
                         : 'Freehand'
                     }
                     onPointerDown={() => {
@@ -248,8 +249,16 @@ export const CreationToolbar = () => {
                         !PlaitBoard.isPointer(board, BasicShapes.text))
                     }
                     icon={button.icon}
-                    title={button.titleKey ? t(button.titleKey) : 'Shape'}
-                    aria-label={button.titleKey ? t(button.titleKey) : 'Shape'}
+                    title={
+                      button.titleKey
+                        ? t(button.titleKey as keyof Translations)
+                        : 'Shape'
+                    }
+                    aria-label={
+                      button.titleKey
+                        ? t(button.titleKey as keyof Translations)
+                        : 'Shape'
+                    }
                     onPointerDown={() => {
                       setShapeOpen(!shapeOpen);
                       if (isShapePointer(board)) {
@@ -290,8 +299,16 @@ export const CreationToolbar = () => {
                     visible={true}
                     selected={arrowOpen || isArrowLinePointer(board)}
                     icon={button.icon}
-                    title={button.titleKey ? t(button.titleKey) : ''}
-                    aria-label={button.titleKey ? t(button.titleKey) : ''}
+                    title={
+                      button.titleKey
+                        ? t(button.titleKey as keyof Translations)
+                        : ''
+                    }
+                    aria-label={
+                      button.titleKey
+                        ? t(button.titleKey as keyof Translations)
+                        : ''
+                    }
                     onPointerDown={() => {
                       setArrowOpen(!arrowOpen);
                       if (isArrowLinePointer(board)) {

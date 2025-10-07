@@ -54,7 +54,7 @@ export const Board: React.FC<PlaitBoardProps> = ({
 
   useEffect(() => {
     const roughSVG = rough.svg(hostRef.current!, {
-      options: { roughness: 0.5, strokeWidth: 1 },
+      options: { roughness: 0.25, strokeWidth: 1 },
     });
     BOARD_TO_ROUGH_SVG.set(board, roughSVG);
     BOARD_TO_HOST.set(board, hostRef.current!);

@@ -31,7 +31,7 @@ const ruTranslations: Translations = {
   'zoom.out': 'Уменьшить — Cmd+-',
   'zoom.fit': 'По размеру экрана',
   'zoom.100': 'Сбросить к 100%',
-  
+
   // Themes
   'theme.default': 'Стандартная',
   'theme.colorful': 'Красочная',
@@ -64,14 +64,14 @@ const ruTranslations: Translations = {
   'general.menu': 'Меню приложения',
   'general.duplicate': 'Дублировать',
   'general.delete': 'Удалить',
-  
+
   // Language
   'language.switcher': 'Language',
   'language.chinese': '中文',
   'language.english': 'English',
   'language.russian': 'Русский',
   'language.arabic': 'عربي',
-  
+
   // Menu items
   'menu.open': 'Открыть',
   'menu.saveFile': 'Сохранить',
@@ -80,12 +80,12 @@ const ruTranslations: Translations = {
   'menu.exportImage.jpg': 'JPG',
   'menu.cleanBoard': 'Очистить доску',
   'menu.github': 'GitHub',
-  
+
   // Dialog translations
   'dialog.mermaid.title': 'Mermaid в Drawnix',
   'dialog.mermaid.description': 'Поддерживаются',
   'dialog.mermaid.flowchart': 'блок-схемы',
-  'dialog.mermaid.sequence': 'диаграммы последовательностей', 
+  'dialog.mermaid.sequence': 'диаграммы последовательностей',
   'dialog.mermaid.class': 'диаграммы классов',
   'dialog.mermaid.otherTypes':
     ' и другие диаграммы (преобразуются в изображения).',
@@ -102,7 +102,7 @@ const ruTranslations: Translations = {
   'dialog.markdown.preview': 'Предпросмотр',
   'dialog.markdown.insert': 'Вставить',
   'dialog.error.loadMermaid': 'Не удалось загрузить библотеку Mermaid',
-  
+
   // Extra tools menu items
   'extraTools.mermaidToDrawnix': 'Mermaid в Drawnix',
   'extraTools.markdownToDrawnix': 'Markdown в Drawnix',
@@ -122,7 +122,7 @@ const ruTranslations: Translations = {
   'popupToolbar.fontColor': 'Цвет текста',
   'popupToolbar.link': 'Вставить ссылку',
   'popupToolbar.stroke': 'Контур',
-  
+
   // Text placeholders
   'textPlaceholders.link': 'Ссылка',
   'textPlaceholders.text': 'Текст',
@@ -132,6 +132,14 @@ const ruTranslations: Translations = {
   'line.target': 'Конец',
   'line.arrow': 'Стрелка',
   'line.none': 'Нет',
+  'line.undefined': 'Не определено',
+  'line.open-triangle': 'Открытый треугольник',
+  'line.solid-triangle': 'Сплошной треугольник',
+  'line.sharp-arrow': 'Острый стрелка',
+  'line.one-side-up': 'Одна сторона вверх',
+  'line.one-side-down': 'Одна сторона вниз',
+  'line.hollow-triangle': 'Пустой треугольник',
+  'line.single-slash': 'Один слэш',
 
   // Stroke style
   'stroke.solid': 'Сплошной',
@@ -162,10 +170,17 @@ const ruTranslations: Translations = {
   // Draw elements text
   'draw.lineText': 'Текст',
   'draw.geometryText': 'Текст',
-  
+
   // Mind map elements text
   'mind.centralText': 'Центральная тема',
   'mind.abstractNodeText': 'Резюме',
+
+  'tutorial.title': 'Tutorial',
+  'tutorial.description': 'Description',
+  'tutorial.dataDescription': 'Data Description',
+  'tutorial.appToolbar': 'App Toolbar',
+  'tutorial.creationToolbar': 'Creation Toolbar',
+  'tutorial.themeDescription': 'Theme Description',
 };
 
 export default ruTranslations;

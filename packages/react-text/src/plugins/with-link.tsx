@@ -18,9 +18,15 @@ export const LinkComponent = ({
   return (
     <a
       {...attributes}
+      href={element.url}
+      target="_blank"
+      rel="noopener noreferrer"
       style={{
         textDecoration: 'none',
-        cursor: 'inherit',
+        cursor: 'pointer',
+        display: 'inline-block',
+        padding: '2px 4px',
+        borderRadius: '2px',
       }}
       data-url={element.url}
       className="plait-board-link"

@@ -71,7 +71,7 @@ const zhTranslations: Translations = {
   'language.english': 'English',
   'language.russian': 'Русский',
   'language.arabic': 'عربي',
-  
+
   // Menu items
   'menu.open': '打开',
   'menu.saveFile': '保存文件',
@@ -117,7 +117,7 @@ const zhTranslations: Translations = {
   'popupToolbar.fontColor': '字体颜色',
   'popupToolbar.link': '链接',
   'popupToolbar.stroke': '边框',
-  
+
   // Text placeholders
   'textPlaceholders.link': '链接',
   'textPlaceholders.text': '文本',
@@ -127,6 +127,14 @@ const zhTranslations: Translations = {
   'line.target': '终点',
   'line.arrow': '箭头',
   'line.none': '无',
+  'line.undefined': '未定义',
+  'line.open-triangle': '开放三角',
+  'line.solid-triangle': '实心三角',
+  'line.sharp-arrow': '尖箭头',
+  'line.one-side-up': '单侧上',
+  'line.one-side-down': '单侧下',
+  'line.hollow-triangle': '空心三角',
+  'line.single-slash': '单斜线',
 
   // Stroke style
   'stroke.solid': '实线',
@@ -136,7 +144,7 @@ const zhTranslations: Translations = {
   // Draw elements text
   'draw.lineText': '文本',
   'draw.geometryText': '文本',
-  
+
   // Mind map elements text
   'mind.centralText': '中心主题',
   'mind.abstractNodeText': '摘要',
@@ -168,7 +176,6 @@ const zhTranslations: Translations = {
   'tutorial.appToolbar': '导出，语言设置，...',
   'tutorial.creationToolbar': '选择一个工具开始你的创作',
   'tutorial.themeDescription': '在明亮和黑暗主题之间切换',
-
 };
 
 export default zhTranslations;

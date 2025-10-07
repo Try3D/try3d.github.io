@@ -12,13 +12,14 @@ import { useI18n } from '../i18n';
 
 export type ArrowMarkerPickerProps = {
   end: 'source' | 'target';
-  property: ArrowLineHandle;
+  property?: ArrowLineHandle;
 };
 
 export const ArrowMarkerPicker: React.FC<ArrowMarkerPickerProps> = ({
   end,
   property,
 }) => {
+  if (!property) return null;
   const board = useBoard();
   const { marker: currentMarker } = property;
   const { t } = useI18n();

@@ -2,38 +2,34 @@ import classNames from 'classnames';
 import { Island } from '../../island';
 import Stack from '../../stack';
 import { ToolButton } from '../../tool-button';
-import {
-  EraseIcon,
-  FeltTipPenIcon,
-} from '../../icons';
+import { EraseIcon, FeltTipPenIcon } from '../../icons';
 import { BoardTransforms } from '@plait/core';
 import React from 'react';
 import { BoardCreationMode, setCreationMode } from '@plait/common';
+import { Translations } from '../../../i18n/types';
 import { FreehandShape } from '../../../plugins/freehand/type';
 import { useBoard } from '@plait-board/react-board';
 import { splitRows } from '../../../utils/common';
-import {
-    DrawnixPointerType,
-} from '../../../hooks/use-drawnix';
+import { DrawnixPointerType } from '../../../hooks/use-drawnix';
 import { useI18n } from '../../../i18n';
 
 export interface FreehandProps {
-    titleKey: string;
-    icon: React.ReactNode;
-    pointer: DrawnixPointerType;
+  titleKey: string;
+  icon: React.ReactNode;
+  pointer: DrawnixPointerType;
 }
 
 export const FREEHANDS: FreehandProps[] = [
   {
-      icon: FeltTipPenIcon,
-      pointer: FreehandShape.feltTipPen,
-      titleKey: 'toolbar.pen',
-    },
-    {
-      icon: EraseIcon,
-      pointer: FreehandShape.eraser,
-      titleKey: 'toolbar.eraser',
-    },
+    icon: FeltTipPenIcon,
+    pointer: FreehandShape.feltTipPen,
+    titleKey: 'toolbar.pen',
+  },
+  {
+    icon: EraseIcon,
+    pointer: FreehandShape.eraser,
+    titleKey: 'toolbar.eraser',
+  },
 ];
 
 const ROW_FREEHANDS = splitRows(FREEHANDS, 5);
@@ -63,11 +59,14 @@ export const FreehandPanel: React.FC<FreehandPickerProps> = ({
                     size={'small'}
                     visible={true}
                     icon={freehand.icon}
-                    title={t(freehand.titleKey)}
-                    aria-label={t(freehand.titleKey)}
+                    title={t(freehand.titleKey as keyof Translations)}
+                    aria-label={t(freehand.titleKey as keyof Translations)}
                     onPointerDown={() => {
                       setCreationMode(board, BoardCreationMode.dnd);
-                      BoardTransforms.updatePointerType(board, freehand.pointer);
+                      BoardTransforms.updatePointerType(
+                        board,
+                        freehand.pointer
+                      );
                     }}
                     onPointerUp={() => {
                       setCreationMode(board, BoardCreationMode.drawing);

@@ -131,6 +131,14 @@ export interface Translations {
   'line.target': string;
   'line.arrow': string;
   'line.none': string;
+  'line.undefined': string;
+  'line.open-triangle': string;
+  'line.solid-triangle': string;
+  'line.sharp-arrow': string;
+  'line.one-side-up': string;
+  'line.one-side-down': string;
+  'line.hollow-triangle': string;
+  'line.single-slash': string;
 
   // Stroke style
   'stroke.solid': string;
