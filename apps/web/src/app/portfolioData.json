@@ -1,0 +1,1254 @@
+{
+  "type": "drawnix",
+  "version": 1,
+  "source": "web",
+  "elements": [
+    {
+      "id": "Aheki",
+      "type": "arrow-line",
+      "shape": "curve",
+      "source": {
+        "marker": "none",
+        "connection": [
+          1,
+          0.420824927949495
+        ],
+        "boundId": "swTmx"
+      },
+      "texts": [],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0,
+          0.5
+        ],
+        "boundId": "XjwHr"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          -17.743654586406365,
+          -254.17051515541806
+        ],
+        [
+          159.7017822265625,
+          -87.00341796875
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "erABA",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "Education"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          165.4587246165798,
+          -233.8383929236789
+        ],
+        [
+          552.3973214695168,
+          -199.7075335486789
+        ]
+      ],
+      "strokeWidth": 2,
+      "fill": "#D3D3D3ed"
+    },
+    {
+      "id": "XjwHr",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          165.4587246165798,
+          -196.6236858846031
+        ],
+        [
+          552.3973214695168,
+          -89.06869060835731
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "JSMsb",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 40,
+      "text": {
+        "children": [
+          {
+            "text": "Shiv Nadar University Chennai (2023 - 2027)\nB.Tech in AI & DS"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          171.12084479730203,
+          -191.5261604041786
+        ],
+        [
+          547.420649484802,
+          -151.5261604041786
+        ]
+      ],
+      "autoSize": false
+    },
+    {
+      "id": "zPJwd",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 40,
+      "text": {
+        "children": [
+          {
+            "text": "> Core Committee member of Coding Club's SDE vertical\n> Built websites for various inter college events"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          171.12084479730203,
+          -136.1578370118517
+        ],
+        [
+          547.420649484802,
+          -96.15783701185171
+        ]
+      ],
+      "autoSize": true
+    },
+    {
+      "id": "BPhwe",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "",
+            "color": "#333333ff"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          166.20880038371098,
+          -449.9890508762695
+        ],
+        [
+          553.147397236648,
+          -315.8998529565559
+        ]
+      ],
+      "strokeWidth": 2,
+      "strokeColor": "#333333"
+    },
+    {
+      "id": "WfXiF",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "Find me here ->",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          186.9029877940178,
+          -433.6495763885527
+        ],
+        [
+          297.6608002940178,
+          -413.6495763885527
+        ]
+      ],
+      "autoSize": true
+    },
+    {
+      "id": "mNNFr",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "",
+            "color": "#1E90FFff"
+          },
+          {
+            "type": "link",
+            "url": "https://github.com/try3d",
+            "children": [
+              {
+                "text": "Github",
+                "url": "try3d.github.io",
+                "color": "#1E90FFff"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "color": "#1E90FFff"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          186.9029877940178,
+          -403.86122123927123
+        ],
+        [
+          354.54271780451865,
+          -371.25807018871245
+        ]
+      ],
+      "strokeWidth": 2,
+      "strokeColor": "#1E90FF"
+    },
+    {
+      "id": "KeajT",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "External Links"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          166.20880038371098,
+          -486.6039847025109
+        ],
+        [
+          553.147397236648,
+          -452.4731253275109
+        ]
+      ],
+      "strokeWidth": 2,
+      "fill": "#D3D3D3ed"
+    },
+    {
+      "id": "RAXPz",
+      "type": "arrow-line",
+      "shape": "curve",
+      "source": {
+        "marker": "none",
+        "connection": [
+          1,
+          0.4152947094965555
+        ],
+        "boundId": "swTmx"
+      },
+      "texts": [],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0,
+          0.5000000000000002
+        ],
+        "boundId": "BPhwe"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          -16.949302909405333,
+          -255.34733245467874
+        ],
+        [
+          164.27286060491224,
+          -344.2798675264945
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "swTmx",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 40,
+      "text": {
+        "children": [
+          {
+            "text": "Saran Shankar\n{ SDE, CSE Undergrad }"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          -257.66082576610256,
+          -298.0654309039652
+        ],
+        [
+          -18.69497452867421,
+          -247.19205639377142
+        ]
+      ],
+      "strokeWidth": 2,
+      "strokeColor": null,
+      "fill": "#D3D3D3ed"
+    },
+    {
+      "id": "eSeCr",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "Experience"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          -266.3198646308863,
+          -582.7581510596766
+        ],
+        [
+          -10.035935663890456,
+          -548.6272916846766
+        ]
+      ],
+      "strokeWidth": 2,
+      "fill": "#D3D3D3ed"
+    },
+    {
+      "id": "ZiDhe",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          -266.3198646308863,
+          -545.5434440206009
+        ],
+        [
+          -10.035935663890456,
+          -470.7949980371242
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "WDwCT",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 40,
+      "text": {
+        "children": [
+          {
+            "text": "Miniture\nSDE Intern (March 2025 - Present)",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -255.19221640648735,
+          -536.2689335706535
+        ],
+        [
+          -20.38619265457342,
+          -478.2224534345199
+        ]
+      ],
+      "autoSize": false
+    },
+    {
+      "id": "MsFyt",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "Tech Stack"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          -321.1066383272281,
+          -37.027113136197954
+        ],
+        [
+          44.75083803245132,
+          -4.639178059489656
+        ]
+      ],
+      "strokeWidth": 2,
+      "fill": "#D3D3D3ed"
+    },
+    {
+      "id": "HWEsX",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          -321.1066383272281,
+          -1.7128099644717325
+        ],
+        [
+          44.75083803245132,
+          136.3824139324994
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "rPDmr",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 120,
+      "text": {
+        "children": [
+          {
+            "text": "Languages: Node, Python, Go\nBackend: Express.JS, AWS Lambda, Flask\nFrontend: React, Expo, Next.JS, Svelte, Tailwind\nDB: PostgreSQL, MySQL, Redis, Supabase, Firebase\nCloud: AWS, GCP, Docker, Kubernetes\nMisc: Git, CI/CD, Posthog",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -313.65959426597885,
+          3.369804386940075
+        ],
+        [
+          37.30379397120208,
+          130.6038761139684
+        ]
+      ],
+      "autoSize": false
+    },
+    {
+      "id": "ipTGK",
+      "type": "arrow-line",
+      "shape": "straight",
+      "source": {
+        "marker": "none",
+        "connection": [
+          0.5,
+          1
+        ],
+        "boundId": "swTmx"
+      },
+      "texts": [],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0.5,
+          0
+        ],
+        "boundId": "MsFyt"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          -139.16387297181473,
+          -128.39249803979885
+        ],
+        [
+          -138.15027144853926,
+          -35.34903231933856
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "JWQGY",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "Summary"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          -832.1913355660765,
+          -631.5961142686767
+        ],
+        [
+          -535.6110016319884,
+          -597.4652548936767
+        ]
+      ],
+      "strokeWidth": 2,
+      "fill": "#D3D3D3ed"
+    },
+    {
+      "id": "eatrn",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          -832.1913355660765,
+          -594.3814072296009
+        ],
+        [
+          -535.6110016319884,
+          -324.84879260036314
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "Srwwb",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 80,
+      "text": {
+        "children": [
+          {
+            "text": "> I am a Software Engineer with hands-on experience building practical solutions through clean and efficient code\n",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -814.355263204564,
+          -539.8907191540063
+        ],
+        [
+          -548.7612109909646,
+          -451.14055017418707
+        ]
+      ],
+      "autoSize": false
+    },
+    {
+      "id": "zJhzQ",
+      "type": "arrow-line",
+      "shape": "straight",
+      "source": {
+        "marker": "none",
+        "connection": [
+          0.5,
+          0
+        ],
+        "boundId": "swTmx"
+      },
+      "texts": [],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0.5,
+          1
+        ],
+        "boundId": "ZiDhe"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          -134.71238300855816,
+          -296.13893679695593
+        ],
+        [
+          -138.17790014738839,
+          -463.44073589560935
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "StZBX",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "👋 Hello, I am Saran",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -814.355263204564,
+          -573.5832721651389
+        ],
+        [
+          -676.027138204564,
+          -553.5832721651389
+        ]
+      ],
+      "autoSize": true
+    },
+    {
+      "id": "dExeP",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 40,
+      "text": {
+        "children": [
+          {
+            "text": "> Curious about anything new, tools, frameworks and technologies",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -814.355263204564,
+          -389.2010937348095
+        ],
+        [
+          -548.7612109909646,
+          -346.97551190566986
+        ]
+      ],
+      "autoSize": false
+    },
+    {
+      "id": "TFHAA",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 60,
+      "text": {
+        "children": [
+          {
+            "text": "> Skilled in translating real-world requirements into robust, production-ready software",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -814.355263204564,
+          -449.19406202256516
+        ],
+        [
+          -548.7612109909646,
+          -391.1475818864315
+        ]
+      ],
+      "autoSize": false
+    },
+    {
+      "id": "xkePp",
+      "type": "arrow-line",
+      "shape": "curve",
+      "source": {
+        "marker": "none",
+        "connection": [
+          0,
+          0.5000000000000003
+        ],
+        "boundId": "swTmx"
+      },
+      "texts": [],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          1,
+          0.4999999999999999
+        ],
+        "boundId": "eatrn"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          -259.40787743357146,
+          -273.72086093893927
+        ],
+        [
+          -443.81934779135076,
+          -449.6184893214379
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "aRAKz",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "Projects"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          -908.8243664694614,
+          -254.14508111653845
+        ],
+        [
+          -441.81452491135656,
+          -220.01422174153845
+        ]
+      ],
+      "strokeWidth": 2,
+      "fill": "#D3D3D3ed"
+    },
+    {
+      "id": "xhkNH",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          -908.8243664694614,
+          -216.93037407746272
+        ],
+        [
+          -441.81452491135656,
+          130.60387611396843
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "szPMh",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 80,
+      "text": {
+        "children": [
+          {
+            "text": "1. Eunoia\nPersonalized DIY project recommendation platform that fine-tuned models + Agentic RAG to detect objects in the user’s environment and suggest relevant, hands-on activities for children",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -898.1872420344937,
+          -205.0642450569593
+        ],
+        [
+          -441.81452491135656,
+          -116.31407607713999
+        ]
+      ],
+      "autoSize": false
+    },
+    {
+      "id": "wnKYx",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 100,
+      "text": {
+        "children": [
+          {
+            "text": "2. RaftKV\nFault-tolerant key-value store based on the Raft consensus algorithm for strong consistency across nodes, leader election, log replication, term-based safety, and snapshotting. Built for resilience over network partitions, failovers and recovery from faults",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -898.1872420344937,
+          -66.1035775484778
+        ],
+        [
+          -451.4805036418679,
+          76.66026126012969
+        ]
+      ],
+      "autoSize": false
+    },
+    {
+      "id": "XjMma",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "Tech Stack: Python, FastAPI, Expo, BS4, Gemini, ChromaDB",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -898.1872420344937,
+          -113.45586276799352
+        ],
+        [
+          -505.4880232844937,
+          -93.45586276799352
+        ]
+      ],
+      "autoSize": true
+    },
+    {
+      "id": "XmXSE",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "link",
+            "url": "https://github.com/try3d/eunoia",
+            "children": [
+              {
+                "text": "Github",
+                "url": "https://try3d.github.io"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -898.1872420344937,
+          -83.01172097164539
+        ],
+        [
+          -847.0866560969937,
+          -63.01172097164539
+        ]
+      ],
+      "autoSize": true
+    },
+    {
+      "id": "zXjNh",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "link",
+            "url": "https://github.com/Try3D/Eunoia/releases/tag/v1.0.0",
+            "children": [
+              {
+                "text": "Release",
+                "url": "https://try3d.github.io"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -815.6612183597106,
+          -83.01172097164539
+        ],
+        [
+          -757.1846558597106,
+          -63.01172097164539
+        ]
+      ],
+      "autoSize": true
+    },
+    {
+      "id": "Ztyhj",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "Tech Stack: Go, Raft, CLI, Distributed Systems",
+            "url": "https://try3d.github.io"
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -898.1872420344937,
+          60.68180518516169
+        ],
+        [
+          -591.6003279719938,
+          80.68180518516169
+        ]
+      ],
+      "autoSize": true
+    },
+    {
+      "id": "kWetA",
+      "type": "geometry",
+      "shape": "text",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "link",
+            "url": "https://github.com/Try3D/RaftKV",
+            "children": [
+              {
+                "text": "Github",
+                "url": "https://try3d.github.io"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "paragraph"
+      },
+      "points": [
+        [
+          -898.1872420344937,
+          89.7521178369621
+        ],
+        [
+          -847.0866560969937,
+          109.7521178369621
+        ]
+      ],
+      "autoSize": true
+    },
+    {
+      "id": "jzktk",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "",
+            "color": "#1E90FFff"
+          },
+          {
+            "type": "link",
+            "url": "mailto:rsarans186@gmail.com",
+            "children": [
+              {
+                "text": "Email",
+                "url": "try3d.github.io",
+                "color": "#1E90FFff"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "color": "#1E90FFff"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          186.9029877940178,
+          -366.21500182117063
+        ],
+        [
+          354.54271780451865,
+          -333.61185077061185
+        ]
+      ],
+      "strokeWidth": 2,
+      "strokeColor": "#1E90FF"
+    },
+    {
+      "id": "njcJG",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "",
+            "color": "#1E90FFff"
+          },
+          {
+            "type": "link",
+            "url": "https://try3d.github.io",
+            "children": [
+              {
+                "text": "Resume",
+                "url": "try3d.github.io",
+                "color": "#1E90FFff"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "color": "#1E90FFff"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          359.67809881017945,
+          -366.21500182117063
+        ],
+        [
+          527.3178288206802,
+          -333.61185077061185
+        ]
+      ],
+      "strokeWidth": 2,
+      "strokeColor": "#1E90FF"
+    },
+    {
+      "id": "tiszc",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "textHeight": 20,
+      "text": {
+        "children": [
+          {
+            "text": "",
+            "color": "#1E90FFff"
+          },
+          {
+            "type": "link",
+            "url": "https://linkedin.com/in/rsarans186",
+            "children": [
+              {
+                "text": "Linkedin",
+                "url": "try3d.github.io",
+                "color": "#1E90FFff"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "color": "#1E90FFff"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          359.67809881017945,
+          -403.86122123927123
+        ],
+        [
+          527.3178288206802,
+          -371.25807018871245
+        ]
+      ],
+      "strokeWidth": 2,
+      "strokeColor": "#1E90FF"
+    },
+    {
+      "id": "ZTXhk",
+      "type": "arrow-line",
+      "shape": "curve",
+      "source": {
+        "marker": "none",
+        "connection": [
+          0,
+          0.5000000000000003
+        ],
+        "boundId": "swTmx"
+      },
+      "texts": [],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          1,
+          0.5
+        ],
+        "boundId": "xhkNH"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          -259.0043524828395,
+          -269.8729812309857
+        ],
+        [
+          -453.1904913515193,
+          -16.52943203653706
+        ]
+      ],
+      "strokeWidth": 2
+    }
+  ],
+  "viewport": {
+    "zoom": 1,
+    "origination": [
+      -933.8384846164067,
+      -689.1068501680886
+    ]
+  }
+}
